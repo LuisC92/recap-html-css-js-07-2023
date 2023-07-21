@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+
+.grey-bg{
+    background-color: gray;
+}
+
+.navigation-bar{
+    display: flex;
+}
+
+.nav-item-list{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-item-list a{
+    color: black;
+    text-decoration: none;
+}
+
+.posts{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    border: 1px solid blue;
+    list-style: none;
+    padding: 0;
+}
+
+.posts div{
+    border: 1px solid red;
+}
+
